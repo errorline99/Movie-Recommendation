@@ -19,8 +19,8 @@ export default function RootLayout({ children }) {
             <h1>Enjoy Movies</h1>
           </div>
           <div className="menu-items">
-            <li><a href="/">Home</a></li>
-            <li><a href="/components/new">Rated</a></li>
+            <li><Link href="/">Home</Link></li>
+            <li><Link href="/components/new">Rated</Link></li>
             <li><Link href="/search">Browse</Link></li>
           </div>
         </div>
