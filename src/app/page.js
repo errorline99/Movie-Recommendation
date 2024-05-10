@@ -6,7 +6,6 @@ import nextConfig from '../../next.config.cjs';
 
 
 
-
 const url = 'https://api.themoviedb.org/3/movie/popular?language=en-US&page=1';
 const options = {
   method: 'GET',
@@ -30,7 +29,7 @@ const mostPopular = async () => {
   var name=first_name.concat(c)
   var title = c[0].title
   var titleRender = c.map((c) => c.title)
-  console.log(c)
+
   var overview = c.map((c) => c.overview)
 
   var connet = c.map((c) =>  first_name.concat (c.poster_path))
