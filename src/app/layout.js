@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import './Gone.css';
+export const runtime = 'edge';
 
 
 export default function RootLayout({ children }) {
