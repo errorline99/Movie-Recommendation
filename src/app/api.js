@@ -5,7 +5,6 @@ import RootLayout from './layout';
 import Client from './components/page'
 
 
-
 export function vv() {
   var doc = document.querySelector('.image-container')
   if(typeof vv.i === 'undefined') {
@@ -24,7 +23,7 @@ export function vv() {
     behavior: "smooth",
   })
   
-  console.log(vv.i)
+
 
 
 }
@@ -43,7 +42,7 @@ export default async function Gone(props) {
     <div className="gone-container">
       <div className='con-cov'>
         <div className='ann-cov'>
-        <img className='img-cov loaded' src={items[0]}></img>
+        <image className='img-cov loaded' src={items[0]} />
         <p className='img-text'>{overviews[0]}</p>
         </div>
       </div>
@@ -55,7 +54,7 @@ export default async function Gone(props) {
       <br/>
       <div className="image-container">
         {items.map((user, index) => <div key={index} className="image-wrapper">
-          <img className='try' id={'' +index} src={user}></img>
+          <image className='try' id={'' +index} src={user} alt={""} />
           <p className="image-title"><br/></p>
          </div>)}
       </div>
