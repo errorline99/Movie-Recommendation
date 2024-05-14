@@ -42,7 +42,7 @@ export default async function Gone(props) {
     <div className="gone-container">
       <div className='con-cov'>
         <div className='ann-cov'>
-        <image className='img-cov loaded' src={items[0]} />
+        <image className='img-cov loaded' src={items[0]}/>
         <p className='img-text'>{overviews[0]}</p>
         </div>
       </div>
@@ -54,7 +54,7 @@ export default async function Gone(props) {
       <br/>
       <div className="image-container">
         {items.map((user, index) => <div key={index} className="image-wrapper">
-          <img className='try' id={'' +index} src={user} alt={""} ></img>
+          <image className='try' id={'' +index} src={user} alt={""}/>
           <p className="image-title"><br/></p>
          </div>)}
       </div>
