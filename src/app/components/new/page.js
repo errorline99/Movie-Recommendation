@@ -102,7 +102,7 @@ export default async function top(props){
     return(
         <div className="kkl">
             <div className="box-man">
-            <image className="back-img" src={getIt[1]} alt={""} />
+            <image className="back-img" src={getIt[1]} alt={""}/>
             <p className="wallTitle">{lineBreak6} </p>
             </div>
             <br />
@@ -113,7 +113,7 @@ export default async function top(props){
   
             <div className="image-flask">
               {getIt[0].map((user, index) => <div key={index} className="image-wrapper">
-            <image className='try' id={'' +index} src={user} alt={""} />
+            <image className='try' id={'' +index} src={user} alt={""}/>
             <p className="image-name"></p>
             <div className="star-line">
               <span className="stars"></span>
@@ -132,7 +132,7 @@ export default async function top(props){
 
             <div className="imgae-flask-week">
             {weekImgs.map((user, index) => <div key={index} className="image-wrapper">
-            <image className='try' id={'' +index} src={user} alt={""} />
+            <image className='try' id={'' +index} src={user} alt={""}/>
             <p className="image-title"></p>
             <div className="star-line">
               <span className="westars"></span>
