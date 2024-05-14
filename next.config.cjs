@@ -1,5 +1,9 @@
 module.exports = {
-    // ...
+    env: {
+       CI: false,
+    },
+
+    
     async headers() {
       return [
         {
