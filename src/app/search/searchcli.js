@@ -63,9 +63,7 @@ export default function Inputs(props) {
             <image
               src={`https://image.tmdb.org/t/p/w200${item.poster_path}`}
               alt={item.title}
-              className="image-item"
-              // onError={handleImageError}
-            />  
+              className="image-item"/>  
             <p className="search-title">{item.title.substring(0, 30) + "\n" + item.title.substring(30, 68) + "\n" + item.title.substring(68, 100)}</p>
 
             </div>
