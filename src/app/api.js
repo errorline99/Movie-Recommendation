@@ -54,7 +54,7 @@ export default async function Gone(props) {
       <br/>
       <div className="image-container">
         {items.map((user, index) => <div key={index} className="image-wrapper">
-          <image className='try' id={'' +index} src={user} alt={""} />
+          <img className='try' id={'' +index} src={user} alt={""} ></img>
           <p className="image-title"><br/></p>
          </div>)}
       </div>
